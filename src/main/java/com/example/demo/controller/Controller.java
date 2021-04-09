@@ -29,6 +29,8 @@ public class Controller {
         arrayList.add(7);
         arrayList.add(8);
         arrayList.add(9);
+        arrayList.add(10);
+        arrayList.add(11);
 
         arrayList.stream().map(t -> t + 1).forEach(t -> log.info(String.valueOf(t)));
         System.out.println("Printing with Parallel Stream now");
